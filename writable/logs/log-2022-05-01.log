@@ -1,0 +1,1215 @@
+CRITICAL - 2022-05-01 00:33:46 --> Invalid file: tags.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tags.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('tags', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(9): view('tags')
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 00:33:47 --> Invalid file: tags.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tags.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('tags', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(9): view('tags')
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-01 01:50:56 --> Table 'facultyeval.users' doesn't exist
+CRITICAL - 2022-05-01 01:50:56 --> Table 'facultyeval.users' doesn't exist
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('mavavak@mailina...', 'user_email', Array, NULL)
+#6 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mavavak@mailina...', Array, Array)
+#7 C:\xampp\htdocs\facultyEval\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\facultyEval\app\Controllers\Register.php(19): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#10 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-01 01:52:12 --> Unknown column 'user_email' in 'where clause'
+CRITICAL - 2022-05-01 01:52:12 --> Unknown column 'user_email' in 'where clause'
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('gikyhakyg@maili...', 'user_email', Array, NULL)
+#6 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'gikyhakyg@maili...', Array, Array)
+#7 C:\xampp\htdocs\facultyEval\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\facultyEval\app\Controllers\Register.php(19): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#10 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-01 01:52:29 --> Class 'App\Controllers\UserModel' not found
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 01:54:26 --> Invalid file: /Home/register.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Home/register....')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('/Home/register', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Register.php(31): view('/Home/register', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 01:55:00 --> Invalid file: /Home/register.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Home/register....')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('/Home/register', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Register.php(31): view('/Home/register', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 01:56:42 --> Invalid file: header-tags.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header-tags.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('header-tags', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(59): view('header-tags')
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 01:58:33 --> Invalid file: header-tags.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header-tags.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('header-tags', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(59): view('header-tags')
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 01:58:43 --> Invalid file: /Home.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Home.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('/Home', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(60): view('/Home', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 01:59:13 --> Invalid file: /Home.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Home.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('/Home', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(61): view('/Home', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 01:59:42 --> Invalid file: /Home.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Home.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('/Home', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(61): view('/Home', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 02:01:55 --> Invalid file: /Home.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Home.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('/Home', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(61): view('/Home', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 03:03:57 --> Undefined variable: validation
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-faculty.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(26): view('add-faculty')
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->admin()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 03:03:58 --> Undefined variable: validation
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-faculty.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(26): view('add-faculty')
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->admin()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 03:05:08 --> Undefined variable: validation
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-faculty.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(26): view('add-faculty')
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->admin()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 03:39:36 --> Invalid file: /faculty.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/faculty.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('/faculty', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(35): view('/faculty', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->save()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 03:39:49 --> Invalid file: /Home/faculty.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Home/faculty.p...')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('/Home/faculty', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(35): view('/Home/faculty', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->save()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 03:39:52 --> Invalid file: /Home/faculty.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Home/faculty.p...')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('/Home/faculty', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(35): view('/Home/faculty', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->save()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 03:53:13 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php on line 36
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(36): CodeIgniter\HTTP\RedirectResponse->to('/Home/faculty', Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->save()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 03:53:33 --> Invalid file: /Home/faculty.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Home/faculty.p...')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('/Home/faculty', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(36): view('/Home/faculty', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->save()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 04:02:53 --> Invalid file: edit-faculty.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit-faculty.ph...')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(34): view('edit-faculty')
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->faculty()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 04:03:09 --> Invalid file: edit-faculty.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit-faculty.ph...')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(34): view('edit-faculty')
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->faculty()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 05:06:27 --> Undefined variable: validation
+#0 C:\xampp\htdocs\facultyEval\app\Views\faculty-list.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('faculty-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(42): view('faculty-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->faculty()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 05:31:56 --> Undefined index: id
+#0 C:\xampp\htdocs\facultyEval\app\Views\faculty-list.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('faculty-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(44): view('faculty-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->faculty()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 05:32:29 --> Undefined index: id
+#0 C:\xampp\htdocs\facultyEval\app\Views\faculty-list.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('faculty-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(44): view('faculty-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->faculty()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 05:32:30 --> Undefined index: id
+#0 C:\xampp\htdocs\facultyEval\app\Views\faculty-list.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('faculty-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(44): view('faculty-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->faculty()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 05:32:33 --> Undefined index: id
+#0 C:\xampp\htdocs\facultyEval\app\Views\faculty-list.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('faculty-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(44): view('faculty-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->faculty()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 05:35:35 --> Undefined index: id
+#0 C:\xampp\htdocs\facultyEval\app\Views\faculty-list.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('faculty-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(44): view('faculty-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->faculty()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 05:35:36 --> Undefined index: id
+#0 C:\xampp\htdocs\facultyEval\app\Views\faculty-list.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('faculty-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(44): view('faculty-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->faculty()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 05:41:02 --> Undefined variable: faculties
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-faculty.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(28): view('edit-faculty')
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->addfaculty()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 05:41:28 --> Undefined variable: item
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-faculty.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(28): view('edit-faculty')
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->addfaculty()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 05:41:29 --> Undefined variable: item
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-faculty.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(28): view('edit-faculty')
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->addfaculty()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 05:45:37 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#3 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(52): view('edit-faculty', Array)
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->editfaculty('6')
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-01 05:47:30 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#3 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(52): view('edit-faculty', Array)
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->editfaculty('6')
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-01 05:48:14 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#3 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(52): view('edit-faculty', Array)
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->editfaculty('6')
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-01 05:57:39 --> Undefined variable: usermodel
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->updatefaculty('6')
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 05:58:10 --> Undefined variable: usermodel
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->updatefaculty('6')
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 05:58:46 --> Undefined variable: model
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->updatefaculty('6')
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 05:59:25 --> Undefined variable: faculty
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-faculty.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(77): view('edit-faculty', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->updatefaculty('6')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 05:59:25 --> Undefined variable: faculty
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-faculty.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(77): view('edit-faculty', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->updatefaculty('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 05:59:26 --> Undefined variable: faculty
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-faculty.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(77): view('edit-faculty', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->updatefaculty('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 06:00:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-faculty.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(80): view('edit-faculty', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->updatefaculty('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 06:00:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-faculty.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(80): view('edit-faculty', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->updatefaculty('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 06:00:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-faculty.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(80): view('edit-faculty', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->updatefaculty('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 06:00:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-faculty.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Faculty.php(80): view('edit-faculty', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Faculty->updatefaculty('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-01 06:12:28 --> Table 'facultyeval.admins' doesn't exist
+CRITICAL - 2022-05-01 06:12:28 --> Table 'facultyeval.admins' doesn't exist
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('mopew@mailinato...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'mopew@mailinato...', Array, Array)
+#7 C:\xampp\htdocs\facultyEval\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\facultyEval\app\Controllers\Register.php(19): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#10 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-01 06:22:07 --> Unknown column 'admins.id' in 'where clause'
+CRITICAL - 2022-05-01 06:22:07 --> Unknown column 'admins.id' in 'where clause'
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(34): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-01 06:22:44 --> Invalid file: admin-list.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin-list.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('admin-list', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(69): view('admin-list', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->admin()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 06:23:08 --> Undefined variable: faculties
+#0 C:\xampp\htdocs\facultyEval\app\Views\admin-list.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('admin-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(69): view('admin-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->admin()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 06:29:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-faculty.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-faculty', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(78): view('edit-faculty', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->editfaculty('1')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 08:19:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-admin.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-admin', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(87): view('edit-admin', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->editadmin('30')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 08:20:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-admin.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-admin', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(87): view('edit-admin', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->editadmin('30')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 08:29:44 --> Invalid file: student-list.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student-list.ph...')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('student-list', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(94): view('student-list', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 09:38:46 --> Undefined variable: faculties
+#0 C:\xampp\htdocs\facultyEval\app\Views\subject.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 135, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('subject', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(130): view('subject')
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->subject()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 09:57:00 --> Undefined variable: subject
+#0 C:\xampp\htdocs\facultyEval\app\Views\subject.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 139, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('subject', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Subject.php(33): view('subject', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Subject->save()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subject))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 09:58:13 --> Undefined variable: model
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Subject.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Subject->save()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subject))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 10:08:01 --> Too few arguments to function App\Controllers\Subject::updatesubject(), 0 passed in C:\xampp\htdocs\facultyEval\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Subject->updatesubject()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subject))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 10:09:21 --> Too few arguments to function App\Controllers\Subject::updatesubject(), 0 passed in C:\xampp\htdocs\facultyEval\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Subject->updatesubject()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subject))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 10:27:44 --> Undefined index: Course
+#0 C:\xampp\htdocs\facultyEval\app\Views\course.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 140, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('course', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(168): view('course', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->course()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 10:28:29 --> Undefined index: Course
+#0 C:\xampp\htdocs\facultyEval\app\Views\course.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 140, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('course', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(168): view('course', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->course()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 10:32:52 --> Invalid file: edit-course.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit-course.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-course', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(178): view('edit-course', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->editcourse('6')
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-01 10:47:39 --> Column 'year' cannot be null
+CRITICAL - 2022-05-01 10:47:39 --> Column 'year' cannot be null
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ac...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\facultyEval\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\facultyEval\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\facultyEval\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\facultyEval\app\Controllers\AcademicYear.php(25): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\AcademicYear->save()
+#10 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AcademicYear))
+#11 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-01 10:48:09 --> Column 'year' cannot be null
+CRITICAL - 2022-05-01 10:48:09 --> Column 'year' cannot be null
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ac...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\facultyEval\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\facultyEval\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\facultyEval\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\facultyEval\app\Controllers\AcademicYear.php(25): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\AcademicYear->save()
+#10 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AcademicYear))
+#11 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-01 10:50:27 --> Invalid file: edit-academicyear.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit-academicye...')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-academicye...', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(205): view('edit-academicye...', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->editacademicyear('2')
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 10:50:48 --> Invalid file: edit-academicyear.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit-academicye...')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-academicye...', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(205): view('edit-academicye...', Array)
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->editacademicyear('2')
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 19:48:09 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\facultyEval\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\facultyEval\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\facultyEval\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\facultyEval\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 20:44:41 --> Undefined index: last_name
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-student.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-student', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(128): view('edit-student', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->editstudent('9')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 21:56:16 --> Undefined variable: db
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:56:37 --> Undefined variable: id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:56:38 --> Undefined variable: id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:57:47 --> Undefined variable: query
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:57:52 --> print_r() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r() expec...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(109): print_r()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-01 21:59:05 --> Undefined index: id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:59:16 --> Undefined variable: student
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:59:33 --> Undefined index: id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 110, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:59:34 --> Undefined index: id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 110, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:59:57 --> Undefined index: course_id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 110, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 22:00:02 --> Undefined index: course_id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 110, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 22:01:48 --> Undefined variable: id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 22:01:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:02:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-01 22:02:24 --> Unknown column 'course_id' in 'field list'
+CRITICAL - 2022-05-01 22:02:24 --> Unknown column 'course_id' in 'field list'
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `course_...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `course_...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `course_...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `course_...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(111): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 22:04:31 --> Undefined variable: a
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 22:04:38 --> array_column() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(114): array_column('course_id', 'id')
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-01 22:05:04 --> Undefined variable: id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 22:06:35 --> array_column() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(114): array_column(Object(App\Models\CourseModel), 'course_id', 'id')
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-01 22:09:52 --> Undefined variable: course_column
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 123, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 22:11:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:11:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:11:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:22:12 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:22:29 --> Call to a member function find() on array
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:22:34 --> Call to a member function findAll() on array
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:22:39 --> Call to a member function find() on array
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:25:21 --> Call to a member function find() on array
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:25:28 --> Undefined property: App\Controllers\Home::$db
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 22:27:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:27:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:32:15 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\facultyEval\system\Database\Query.php(312): implode(',', Array)
+#1 C:\xampp\htdocs\facultyEval\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT `course`...', Array)
+#2 C:\xampp\htdocs\facultyEval\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `course`...', Array, false)
+#5 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(138): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-01 22:32:37 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\facultyEval\system\Database\Query.php(312): implode(',', Array)
+#1 C:\xampp\htdocs\facultyEval\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT `course`...', Array)
+#2 C:\xampp\htdocs\facultyEval\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `course`...', Array, false)
+#5 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(138): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-01 22:35:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:36:12 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 312, Array)
+#1 C:\xampp\htdocs\facultyEval\system\Database\Query.php(312): implode(',', Array)
+#2 C:\xampp\htdocs\facultyEval\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT `course`...', Array)
+#3 C:\xampp\htdocs\facultyEval\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `course`...', Array, false)
+#6 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(138): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-01 22:37:13 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 312, Array)
+#1 C:\xampp\htdocs\facultyEval\system\Database\Query.php(312): implode(',', Array)
+#2 C:\xampp\htdocs\facultyEval\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT `course`...', Array)
+#3 C:\xampp\htdocs\facultyEval\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `course`...', Array, false)
+#6 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(138): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-01 22:37:42 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 131, Array)
+#1 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(131): explode(',', Array)
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-01 22:39:28 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-05-01 22:39:28 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `course`...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `course`...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `course`...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `course`...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(137): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 22:41:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 22:41:39 --> explode() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 131, Array)
+#1 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(131): explode(',', Object(CodeIgniter\Database\MySQLi\Builder))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-01 22:49:07 --> Undefined variable: query
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-01 22:56:48 --> Unknown column 'student' in 'where clause'
+CRITICAL - 2022-05-01 22:56:48 --> Unknown column 'student' in 'where clause'
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(101): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-01 23:03:01 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 23:04:17 --> Undefined index: course
+#0 C:\xampp\htdocs\facultyEval\app\Views\student-list.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('student-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(108): view('student-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 23:04:46 --> Undefined index: course
+#0 C:\xampp\htdocs\facultyEval\app\Views\student-list.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('student-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(108): view('student-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 23:04:54 --> Undefined index: course
+#0 C:\xampp\htdocs\facultyEval\app\Views\student-list.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('student-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(108): view('student-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 23:06:19 --> Undefined index: course
+#0 C:\xampp\htdocs\facultyEval\app\Views\student-list.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 132, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('student-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(110): view('student-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 23:06:32 --> Undefined variable: item
+#0 C:\xampp\htdocs\facultyEval\app\Views\student-list.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('student-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(110): view('student-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 23:06:38 --> Undefined index: course
+#0 C:\xampp\htdocs\facultyEval\app\Views\student-list.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('student-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(110): view('student-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-01 23:07:59 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 23:08:22 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 23:08:23 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-01 23:26:17 --> Declaration of App\Models\StudentModel::paginate() should be compatible with CodeIgniter\BaseModel::paginate(?int $perPage = NULL, string $group = 'default', ?int $page = NULL, int $segment = 0)
+#0 C:\xampp\htdocs\facultyEval\app\Models\StudentModel.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Stud...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Stud...')
+#5 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(89): spl_autoload_call('App\\Models\\Stud...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-01 23:30:09 --> Declaration of App\Models\StudentModel::paginate() should be compatible with CodeIgniter\BaseModel::paginate(?int $perPage = NULL, string $group = 'default', ?int $page = NULL, int $segment = 0)
+#0 C:\xampp\htdocs\facultyEval\app\Models\StudentModel.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Stud...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Stud...')
+#5 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(89): spl_autoload_call('App\\Models\\Stud...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-01 23:30:11 --> Declaration of App\Models\StudentModel::paginate() should be compatible with CodeIgniter\BaseModel::paginate(?int $perPage = NULL, string $group = 'default', ?int $page = NULL, int $segment = 0)
+#0 C:\xampp\htdocs\facultyEval\app\Models\StudentModel.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Stud...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Stud...')
+#5 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(89): spl_autoload_call('App\\Models\\Stud...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-01 23:33:17 --> Declaration of App\Models\StudentModel::paginate() should be compatible with CodeIgniter\BaseModel::paginate(?int $perPage = NULL, string $group = 'default', ?int $page = NULL, int $segment = 0)
+#0 C:\xampp\htdocs\facultyEval\app\Models\StudentModel.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Stud...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Stud...')
+#5 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(89): spl_autoload_call('App\\Models\\Stud...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-01 23:35:20 --> Declaration of App\Models\StudentModel::paginate() should be compatible with CodeIgniter\BaseModel::paginate(?int $perPage = NULL, string $group = 'default', ?int $page = NULL, int $segment = 0)
+#0 C:\xampp\htdocs\facultyEval\app\Models\StudentModel.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Stud...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Stud...')
+#5 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(89): spl_autoload_call('App\\Models\\Stud...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-01 23:35:21 --> Declaration of App\Models\StudentModel::paginate() should be compatible with CodeIgniter\BaseModel::paginate(?int $perPage = NULL, string $group = 'default', ?int $page = NULL, int $segment = 0)
+#0 C:\xampp\htdocs\facultyEval\app\Models\StudentModel.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Stud...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Stud...')
+#5 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(89): spl_autoload_call('App\\Models\\Stud...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-01 23:35:22 --> Declaration of App\Models\StudentModel::paginate() should be compatible with CodeIgniter\BaseModel::paginate(?int $perPage = NULL, string $group = 'default', ?int $page = NULL, int $segment = 0)
+#0 C:\xampp\htdocs\facultyEval\app\Models\StudentModel.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\facultyEval\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Stud...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Stud...')
+#5 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(89): spl_autoload_call('App\\Models\\Stud...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-01 23:35:29 --> Argument 1 passed to App\Models\StudentModel::__construct() must be an instance of App\Models\ConnectionInterface, object given, called in C:\xampp\htdocs\facultyEval\app\Controllers\Home.php on line 89
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(89): App\Models\StudentModel->__construct(Object(CodeIgniter\Database\MySQLi\Connection))
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 23:38:11 --> Undefined variable: student_course
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 23:59:53 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in C:\xampp\htdocs\facultyEval\system\Model.php on line 184
+#0 C:\xampp\htdocs\facultyEval\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 C:\xampp\htdocs\facultyEval\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#2 C:\xampp\htdocs\facultyEval\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(10, 0)
+#3 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(96): CodeIgniter\BaseModel->paginate(10)
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->student()
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

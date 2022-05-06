@@ -1,0 +1,18 @@
+CRITICAL - 2022-04-30 19:03:14 --> Invalid file: tags.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tags.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('tags', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(9): view('tags')
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-30 19:03:29 --> Invalid file: tags.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tags.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('tags', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(9): view('tags')
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

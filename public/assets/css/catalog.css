@@ -1,0 +1,105 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+     
+}
+.container-fluid{
+    box-sizing: border-box;
+    padding: 2%;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 18%;
+    overflow: hidden;
+}
+
+.course-header{
+    color: #231773;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+
+.course-catalog{
+    padding-bottom: 10%;
+}
+
+.course-img-header{
+    width: 90px;
+}
+
+.card{
+    height: 17em;
+    margin-top: 2%;
+    background-color: #F2F2F2;
+    color: #404040;
+    border: none;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2%;
+}
+
+
+.card-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.card-subtitle{
+    color: #8C8C8C;
+    font-weight: 500;
+}
+
+.card-text{
+    color: #404040;
+    padding-top: 8%;
+    padding-left: 2%;
+    padding-right: 1%;
+    font-weight: 400;
+}
+
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+
+.btn-primary{
+    background-color: #8C8C8C;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color: #231773;
+    border: none;
+}
+
+.card-container{
+    padding-left: -10em;
+}
+.row > div[class*='column-'] {
+    padding-left: -10em;
+    display: flex;
+    flex:1 0 auto;
+}
+
+.column-spacing{
+    padding-bottom: 3%;
+}
+
+.collapse-button{
+    background-color: transparent;
+    background-color: #8C8C8C;
+    font-size: 1.2em;
+    border-radius: 25px;
+}
+
+.collapse-button:hover{
+    background-color: #231773;
+}

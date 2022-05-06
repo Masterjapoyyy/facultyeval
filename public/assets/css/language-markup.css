@@ -1,0 +1,12 @@
+code[class*="language-"],
+pre[class*="language-"] {
+    font-family: Menlo, Monaco, "Courier New", monospace;
+    font-size: 14px;
+    color: black;
+    border-radius: 5px;
+}
+
+pre[class*="language-"],
+:not(pre)>code[class*="language-"] {
+    background: #ebedf2;
+}

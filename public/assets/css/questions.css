@@ -1,0 +1,45 @@
+
+html{
+    all: unset;
+}      
+
+.container{
+}
+
+.post-summary{
+    padding-bottom: 3%;
+}
+
+.post-tags{
+    padding-bottom: 10px;
+}
+
+.post-title,
+.post-summary-link{
+    color: #231773;
+    padding:0;
+    padding-bottom: -50px;
+    text-decoration: none;
+}
+
+.post-summary-link{
+    text-decoration: none;
+}
+
+
+.create-question{
+    padding: 10px;
+    padding-right: 3%;
+    padding-left: 3%;
+    border-radius: 50px;
+    font-size: 1.5em;
+    margin-bottom: 4em;
+}
+
+.post-body-summary{
+  color: #231773;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1.1em;
+  padding-bottom: 2.5em;
+}
