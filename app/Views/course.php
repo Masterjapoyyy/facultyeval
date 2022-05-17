@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?= base_url('assets/css/pagination.css');?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/table.css');?>">
     <title>Classes</title>
 </head>
 <style>
@@ -17,12 +18,13 @@
         overflow: hidden;
     }
 
+   
     .container-fluid{
         position:absolute;
         display:flex;
-        margin-left: 20%;
-        padding-top: 7%;
-        width: 78%;
+        padding-top: 1%;
+        padding-left: 3%;
+        width: 100%;
     }
 
     .disabled{
@@ -110,6 +112,24 @@ tbody:before {
       border-radius: 100px;
     }
 
+    @media screen and (max-width: 1000px) {
+
+html{
+      overflow-y: scroll;
+  }
+  
+  .container-fluid{
+        margin-bottom: 3%;
+        padding-left: 30%;
+    }
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #f27457 !important;
+    border: none;
+    color:#a23d3d;
+    font-weight: 600;
+}
 </style>
 <body>
   
@@ -118,41 +138,53 @@ tbody:before {
 
    
 <div class="w-100 row">
-    <button type="button" class="btn btn-primary registration-button modal-button" data-toggle="modal" data-target="#exampleModalCenter">
+ 
+
+<div class="w-100 row">
+
+<div class="col-sm">
+  <p class="display-3 list-header">Classes</p>
+    </div>
+    <div class="col-sm">
+    <button type="button" class="btn btn-primary rounded-pill float-right" data-toggle="modal" data-target="#exampleModalCenter">
   Add Class
 </button>
-
-  <div class="w-100"></div>
-  <div class="w-100 row">
-  <table class="table table-borderless">
-  <thead>
-    <tr>
-      <th class="disabled header" scope="col">#</th>
-      <th class="disabled header" scope="col">CLASS</th>
-      <th class="disabled header" scope="col">ACTION</th>
-    </tr>
-  </thead>
-  <tbody>
-  <?php $x = 1;?>
-  <?php foreach($course as  $item) : ?>
-    <tr>
-      <th class="disabled body" scope="row"><?php echo $x++;?> </th>
-      <td class="disabled body"><b><?= $item['course']?>-<?= $item['year_level']?>-<?= $item['section']?></b></td>
-      <td>
-      
-      <a class="btn btn-light btn-outline-success" href="<?php echo base_url('Course/editcourse/'. $item['id']);?>">edit</a>
+    </div>
+  <table>
+    
+   <thead>
+      <tr>
+        <th><label>#</label></th>
+        <th><label>Class</label></th>
+        <th><label>ACTION</label></th>
+      </tr>
+    </thead>
+    <tbody>
+    <?php $x = 1;?>
+<?php foreach($course as  $item) : ?>
+      <tr>
+    <td data-label="ID"><?php echo $x++;?> </td>
+        <td data-label="Class"><b><?= $item['course']?>-<?= $item['year_level']?>-<?= $item['section']?></b></td>
+        <td data-label="Action">
+        <a class="btn btn-light btn-outline-success" href="<?php echo base_url('Course/editcourse/'. $item['id']);?>">edit</a>
       <a class="btn btn-light btn-outline-danger" href="<?php echo base_url('Course/deletecourse/'. $item['id']);?>">delete</a>
       </td>
-    </tr>
-    <?php endforeach; ?>
-  </tbody>
-</table>
-  <div class="w-100"></div>
-  <div class="row ">
-  <div class="d-flex justify-content-center flex-nowrap pagination fixed-bottom">
-          <?= $pager->links() ?>
-        </div>
+      </tr>
+      <?php endforeach; ?>
+    </tbody>
+  </table>
+
+
+
+
+<div class="w-100"></div>
+<div class="row ">
+
 </div>
+<div  class="d-flex justify-content-center fixed-bottom">
+        <?= $pager->links() ?>
+      </div>
+  </div>
 
 
 

@@ -30,6 +30,7 @@ class Home extends BaseController
 
     public function addfaculty()
     {
+        // /$data['user']=$adminModel->where("superadmin.id", session("id"))->first();
         helper(['form']);
         echo view('tags');
         echo view('sidebar');
@@ -72,6 +73,7 @@ class Home extends BaseController
 
     public function admin()
     {
+        // /$data['user']=$adminModel->where("superadmin.id", session("id"))->first();
         $model = new AdminModel();
         helper('text');
         helper(['form']);
@@ -383,6 +385,7 @@ class Home extends BaseController
 
         if($email->send()){
             return redirect()->to('/Home/student');
+            
         }
     }
 
@@ -420,7 +423,7 @@ class Home extends BaseController
 
 
 
-    public function profile(){
+    public function profiwle(){
         $db = db_connect();
         
         helper('form', 'url');
@@ -431,8 +434,34 @@ class Home extends BaseController
         // echo '<pre>';
         echo view('tags');
         echo view('sidebar');
-        echo view('profile', $data);
+        echo view('profile2', $data);
     }
 
+
+    public function profile()
+    {
+        $db = db_connect();
+        //$model = new StudentModel($db);
+        //$customModel = new CustomModel($db);
+        $courseModel = new CourseModel($db);
+        helper('text');
+        helper(['form']);
+        $adminModel = new UserModel($db);
+        $data['user']=$adminModel->where("superadmin.id", session("id"))->first();
+       
+   
+
+        // $course = $courseModel->find();
+        // $student = $model->find();
+        // $builder = $db->table('student');        // 'mytablename' is the name of your table
+        // $builder->select('SELECT email FROM student');
+        // $builder->orderBy('student', 'email');
+        // $query = $builder->get()->getResult();
+       
+       
+        echo view('tags');
+        echo view('sidebar');
+        echo view('profile', $data);
+    }
 }
 

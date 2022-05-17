@@ -1,0 +1,183 @@
+CRITICAL - 2022-05-17 00:51:00 --> Undefined variable: admin
+#0 C:\xampp\htdocs\facultyEval\app\Views\faculty-list.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('faculty-list', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(71): view('faculty-list', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->faculty()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 01:20:24 --> Undefined variable: academicyear
+#0 C:\xampp\htdocs\facultyEval\app\Views\course.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 152, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('course', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(220): view('course', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->course()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 03:06:21 --> Undefined variable: user
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(466): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 03:06:36 --> Undefined variable: user
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(467): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 03:06:57 --> Undefined variable: user
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(467): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 03:07:43 --> Undefined variable: user
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(467): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 03:08:41 --> Undefined variable: adminModel
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(450): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 450, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-17 03:09:13 --> Unknown column 'admin.id' in 'where clause'
+CRITICAL - 2022-05-17 03:09:13 --> Unknown column 'admin.id' in 'where clause'
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(450): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-17 03:09:41 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(465): view('profile', Array)
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-17 03:09:52 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(462): view('profile', Array)
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-17 03:10:18 --> Undefined variable: user
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(463): view('profile')
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 04:05:23 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\facultyEval\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Admin/save')
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Admin/save')
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-17 04:37:42 --> Class 'App\Controllers\AdminModel' not found
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-17 04:40:41 --> Class 'App\Validation\AdminModel' not found
+#0 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(292): App\Validation\UserRules->validateUser('PaPpFBWy', 'email,password', Array, NULL)
+#1 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'PaPpFBWy', Array, Array)
+#2 C:\xampp\htdocs\facultyEval\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(42): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-17 05:04:21 --> Unknown column 'superadmin.id' in 'where clause'
+CRITICAL - 2022-05-17 05:04:21 --> Unknown column 'superadmin.id' in 'where clause'
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(450): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-17 05:04:22 --> Unknown column 'superadmin.id' in 'where clause'
+CRITICAL - 2022-05-17 05:04:22 --> Unknown column 'superadmin.id' in 'where clause'
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(450): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-17 05:05:10 --> Unknown column 'admin.id' in 'where clause'
+CRITICAL - 2022-05-17 05:05:10 --> Unknown column 'admin.id' in 'where clause'
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(44): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

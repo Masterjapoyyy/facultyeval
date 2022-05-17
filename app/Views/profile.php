@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<?= base_url('assets/css/sidebars.css');?>">
     <title><?= $user['name']?></title>
 </head>
 
@@ -14,11 +15,15 @@
 
 
     .container{
-        padding-top:5%;
-        padding-left:5%;
+      
+        position:absolute;
+        display:flex;
+        padding-top: 5%;
+        padding-left: 10%;
+        width: 100%;
     }
 
-
+ 
 
 
 
@@ -114,42 +119,83 @@ input[type="file"]::-ms-browse {
 	color: #fff;
 	border-radius: 0.2em;
 }
-
-
-
 /*button*/
 
-    .modal-button{
-            background-color: #F27457;
-            font-weight: 700;
-            font-size: 1vw;
-            border-radius: 25px;
-            padding: 2%;
-            padding-right: 7%;
-            padding-left: 7%;;
-            padding-left: 7%;
-            color: #8C2E36;
-            border: none;
-        }
 
-    .modal-button:hover{
+
+    .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #f27457 !important;
+    border: none;
+    color:#a23d3d;
+    font-weight: 600;
+}
+
+.buttons{
+  padding-top: 10%;
+}
+  
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: #041159;
+    }
+
+    html{
+        overflow: hidden;
+    }
+
+    .container-fluid{
+        position:absolute;
+    display:flex;
+    margin-left: 20%;
+    padding-top: 7%;
+    }
+
+   
+    .registration-header{
+        font-weight: 800
+    }
+
+    .form-control{
+        border-radius: 50px;
+        width: 100%;
+        padding: 1.5em;
+    }
+
+    .registration-button{
+        background-color: #F27457;
+        font-weight: 700;
+        font-size: 1vw;
+        border-radius: 25px;
+        padding: 2%;
+        padding-right: 7%;
+        padding-left: 7%;
+        color: #8C2E36;
+        border: none;
+    }
+
+    .registration-button:hover{
       background-color: #1D28F2;
       color: #ffff;
     }
 
-    .button-container{
-        padding:3%;
+    .need-account{
+        text-align: center;
+    }
+    .signin-link{
+        color: #231773;
     }
 
-    .password{
-        border-radius: 25px;
+    .login-container{
+        padding-top: 5%;
     }
 
 
-
-    .buttons{
-        padding-top: 10%;
-    }
+    
+    .login{
+    padding-top: 8%;
+  }
 </style>
 <body>
     <div class="container">
@@ -176,25 +222,25 @@ input[type="file"]::-ms-browse {
 
 <div class="buttons">
 
-    <div class="info-container button-container">
-    <button id="SIGNIN"class="btn btn-primary modal-button" data-toggle="modal" data-target="#exampleModal" href="<?php echo base_url('Profile/changepassword/'. $user['id']);?>" role="button">CHANGE PASSWORD</button>
+    <div class="form-group">
+    <button id="SIGNIN"class="btn btn-primary rounded-pill btn-block" data-toggle="modal" data-target="#exampleModal" href="<?php echo base_url('Profile/changepassword/'. $user['id']);?>" role="button">CHANGE PASSWORD</button>
     </div>
 
 
-    <div class="info-container button-container">
-    <button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#exampleModalCenterinfo">
+    <div class="form-group">
+    <button type="button" class="btn btn-primary rounded-pill btn-block" data-toggle="modal" data-target="#exampleModalCenterinfo">
   UPDATE INFORMATION
     </button>
     </div>
 
 
 
-    <div class="info-container button-container">
-    <button type="button" class="btn btn-primary modal-button" data-toggle="modal" data-target="#exampleModalCenter">
+    <div class="form-group">
+    <button type="button" class="btn btn-primary rounded-pill btn-block" data-toggle="modal" data-target="#exampleModalCenter">
   CHANGE PROFILE PHOTO
     </button>
     </div>
-
+   
     </div>
 
 
@@ -219,14 +265,6 @@ input[type="file"]::-ms-browse {
         </figure>
     </div>
 
-
-
- 
-
-
-    
-
-   
 
     </div>
     

@@ -55,10 +55,26 @@ class Admin extends BaseController
                 'first_name'     => $this->request->getVar('first_name'),
                 'last_name'     => $this->request->getVar('last_name'),
                 'email'    => $this->request->getVar('email'),
+                'role'    => 'admin',
                 'password' => password_hash($this->request->getVar($newPassword), PASSWORD_DEFAULT),
-                'clear_text'    => $newPassword,
             ];
             $model->save($data);
+            $email = \Config\Services::email();
+            $to =$data['email'];
+                    
+            $subject = 'Password Change';
+            $message = 'Hello &nbsp;' . $data['last_name']. ','.$data['first_name'].'&nbsp;&nbsp;Please Login using your credentials which is your email<br>'
+            . $data['email'].'<br>and your password<br>'
+             .$newPassword.'<br>and Change your password to a more secure one';
+            
+         
+            $email->setTo($to);
+            $email->setFrom('johndoe@gmail.com', 'CodeDabble.Inc');
+            
+            $email->setSubject($subject);
+            $email->setMessage($message);
+    
+            $email->send();
             return redirect()->to('/Home/admin');
         }else{
             $data['validation'] = $this->validator;

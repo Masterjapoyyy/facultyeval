@@ -50,13 +50,14 @@ class Login extends BaseController
                             'id'       => $data['id'],
                             'name'     => $data['name'],
                             'email'    => $data['email'],
+                            'role'    => $data['role'],
                             'uploaded_flleinfo'    => $data['uploaded_flleinfo'],
                             'logged_in'     => TRUE
                         ];
                       
                         $session->set($ses_data);
                         echo view('tags');
-                        return redirect()->to('/Home/faculty');
+                        return redirect()->to('/Home/profile');
                     }else{
                         $session->setFlashdata('msg', 'Wrong Password');
                         return redirect()->to('/login');

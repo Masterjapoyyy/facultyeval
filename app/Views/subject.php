@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?= base_url('assets/css/pagination.css');?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/table.css');?>">
     <title>Subjects</title>
 </head>
 <style>
@@ -20,9 +21,8 @@
     .container-fluid{
         position:absolute;
         display:flex;
-        margin-left: 20%;
-        padding-top: 7%;
-        width: 78%;
+        padding-top: 1%;
+        width: 100%;
     }
 
     .disabled{
@@ -109,7 +109,23 @@ tbody:before {
       padding-right: 1vw;
       border-radius: 100px;
     }
+    @media screen and (max-width: 1000px) {
 
+html{
+      overflow-y: scroll;
+  }
+  
+  .container-fluid{
+        margin-bottom: 3%;
+    }
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #f27457 !important;
+    border: none;
+    color:#a23d3d;
+    font-weight: 600;
+}
 </style>
 <body>
   
@@ -118,45 +134,56 @@ tbody:before {
 
    
 <div class="w-100 row">
-    <button type="button" class="btn btn-primary registration-button modal-button" data-toggle="modal" data-target="#exampleModalCenter">
+
+ 
+ 
+<div class="col-sm">
+<p class="display-3 list-header">Subjects</p>
+</div>
+<div class="col-sm">
+
+<button type="button" class="btn btn-primary rounded-pill float-right" data-toggle="modal" data-target="#exampleModalCenter">
   Add Subject
 </button>
-
-  <div class="w-100"></div>
-  <div class="w-100 row">
-  <table class="table table-borderless">
-  <thead>
+</div>
+<table>
+ <thead>
     <tr>
-      <th class="disabled header" scope="col">#</th>
-      <th class="disabled header" scope="col">SUBJECT CODE</th>
-      <th class="disabled header" scope="col">SUBJECT</th>
-      <th class="disabled header" scope="col">DESCRIPTION</th>
-      <th class="disabled header" scope="col">ACTION</th>
+      <th><label>#</label></th>
+      <th><label>Subject Code</label></th>
+      <th><label>Subject</label></th>
+      <th><label>Description</label></th>
+      <th><label>ACTION</label></th>
     </tr>
   </thead>
   <tbody>
   <?php $x = 1;?>
-  <?php foreach($subject as  $item) : ?>
+<?php foreach($subject as  $item) : ?>
     <tr>
-      <th class="disabled body" scope="row"><?php echo $x++;?> </th>
-      <td class="disabled body"><?= $item['subject_code']?></td>
-      <td class="disabled body"><?= $item['subject']?></td>
-      <td class="disabled body"><?= $item['description']?></td>
-      <td>
+  <td data-label="ID"><?php echo $x++;?> </td>
+      <td data-label="AcademiC Year"><?= $item['subject_code']?></td>
+      <td data-label="Semester"><?= $item['subject']?></td>
+      <td data-label="Semester"><?= $item['description']?></td>
+      <td data-label="Action">
       
       <a class="btn btn-light btn-outline-success" href="<?php echo base_url('Subject/editsubject/'. $item['id']);?>">edit</a>
       <a class="btn btn-light btn-outline-danger" href="<?php echo base_url('Subject/deletesubject/'. $item['id']);?>">delete</a>
-      </td>
+    </td>
     </tr>
     <?php endforeach; ?>
   </tbody>
 </table>
-  <div class="w-100"></div>
-  <div class="row ">
-  <div class="d-flex justify-content-center flex-nowrap pagination fixed-bottom">
-          <?= $pager->links() ?>
-        </div>
+
+
+<div class="w-100"></div>
+<div class="row ">
+
 </div>
+<div  class="d-flex justify-content-center fixed-bottom">
+      <?= $pager->links() ?>
+    </div>
+</div>
+
 
 
 
@@ -242,3 +269,7 @@ tbody:before {
     </div>
 </body>
 </html>
+
+
+
+

@@ -17,13 +17,15 @@
         overflow-x: hidden;
     }
 
+  
     .container-fluid{
+      
       position:absolute;
-      margin-left: 20%;
-      padding-top: 7%;
-      padding-left: 2%;
-      padding-right: 30%;
-    }
+      display:flex;
+      padding-top: 5%;
+      padding-left: 15%;
+      width: 100%;
+  }
 
    
     .registration-header{
