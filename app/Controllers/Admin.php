@@ -55,8 +55,8 @@ class Admin extends BaseController
                 'first_name'     => $this->request->getVar('first_name'),
                 'last_name'     => $this->request->getVar('last_name'),
                 'email'    => $this->request->getVar('email'),
-                'role'    => 'admin',
-                'password' => password_hash($this->request->getVar($newPassword), PASSWORD_DEFAULT),
+                'role'    => $this->request->getVar('role'),
+                'password' =>password_hash($newPassword, PASSWORD_DEFAULT),
             ];
             $model->save($data);
             $email = \Config\Services::email();
@@ -69,7 +69,7 @@ class Admin extends BaseController
             
          
             $email->setTo($to);
-            $email->setFrom('johndoe@gmail.com', 'CodeDabble.Inc');
+            $email->setFrom('johndoe@gmail.com', 'philippinepublicsafetycollege');
             
             $email->setSubject($subject);
             $email->setMessage($message);
@@ -119,6 +119,7 @@ class Admin extends BaseController
                 'schoolid'     => $this->request->getVar('schoolid'),
                 'first_name'     => $this->request->getVar('first_name'),
                 'last_name'     => $this->request->getVar('last_name'),
+                'role'    => $this->request->getVar('role'),
                 'email'    => $this->request->getVar('email'),
                 
             ];

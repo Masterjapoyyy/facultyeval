@@ -34,6 +34,14 @@
         padding: 1.5em;
     }
 
+    .form-select{
+        border-radius: 50px;
+        width: 100%;
+        padding: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
     .registration-button{
         background-color: #F27457;
         font-weight: 700;
@@ -126,6 +134,22 @@
                 <?php }?>  
                  
     
+
+                <div class="mb-3">
+                <select class="form-select" name="role" aria-label="Default select example">
+                <option selected>Open this select role</option>
+                <option value="superadmin">Superadmin</option>
+                <option value="admin">Admin</option>
+              </select>
+                  </div>
+                  <?php if($validation->getError('role')) {?>
+                    <div class='d-flex justify-content-center align-items-center validate'>
+                      <?= $error = $validation->getError('role'); ?>
+                    </div>
+                <?php }?>  
+
+
+      
                     
                     <button type="submit" class="btn btn-primary registration-button">Add Admin Member</button>
                   </form>

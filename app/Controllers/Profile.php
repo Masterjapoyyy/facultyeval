@@ -9,7 +9,6 @@ use App\Models\CourseModel;
 use App\Models\AcademicModel;
 use App\Models\CustomModel;
 use App\Models\QuestionModel;
-use App\Models\UserModel;
 
 
 class Profile extends BaseController
@@ -22,15 +21,16 @@ class Profile extends BaseController
         $db = db_connect();
         
         helper('form', 'url');
-        $usermodel = new UserModel($db);
+        $AdminModel = new AdminModel($db);
         $session = session();
-        $data['user'] =$usermodel->find($id);
+        $data['user'] =$AdminModel->find($id);
         $data = [
-            'name'     => $this->request->getVar('name'),
+            'first_name'     => $this->request->getVar('first_name'),
+            'last_name'     => $this->request->getVar('last_name'),
             'email'    => $this->request->getVar('email'),
         ];
         $session->set($data);
-        $usermodel->update($id, $data);
+        $AdminModel->update($id, $data);
         return redirect()->to('/Home/Profile');
     } 
 
@@ -40,13 +40,12 @@ class Profile extends BaseController
         $db = db_connect();
         
         helper('form', 'url');
-        $usermodel = new UserModel($db);
-        $data['user'] =$usermodel->find($id);
+        $AdminModel = new AdminModel($db);
+        $data['user'] =$AdminModel->find($id);
         $data = [
             'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
-            'clear_text'    => $this->request->getVar('password'),
         ];
-        $usermodel->update($id, $data);
+        $AdminModel->update($id, $data);
         $session = session();
         $session->destroy();
         return redirect()->to('/Home');
@@ -59,7 +58,7 @@ class Profile extends BaseController
     $db = db_connect();
         
     helper('form', 'url');
-    $usermodel = new UserModel($db);
+    $AdminModel = new AdminModel($db);
     $session = session();
 
 
@@ -76,7 +75,7 @@ class Profile extends BaseController
        
       
         $session->set($data);
-        $usermodel->update($id, $data);
+        $AdminModel->update($id, $data);
         return redirect()->to('/Home/profile');
     
 

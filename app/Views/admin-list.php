@@ -115,6 +115,7 @@ html{
           <th><label>FIRST NAME</label></th>
           <th><label>LAST NAME</label></th>
           <th><label>EMAIL</label></th>
+          <th><label>ROLE</label></th>
           <th><label>ACTION</label></th>
         </tr>
       </thead>
@@ -127,6 +128,7 @@ html{
           <td data-label="First Name"><?= $item['first_name']?></td>
           <td data-label="Last Name"><?= $item['last_name']?></td>
           <td data-label="Email"><?= $item['email']?></td>
+          <td data-label="Role"><?= $item['role']?></td>
           <td data-label="Action">
           
           <a class="btn btn-light btn-outline-success" href="<?php echo base_url('Admin/editadmin/'. $item['id']);?>">edit</a>

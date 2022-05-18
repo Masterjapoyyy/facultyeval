@@ -86,6 +86,15 @@
   .disabled{
   pointer-events: none;
 }
+
+
+.form-select{
+        border-radius: 50px;
+        width: 100%;
+        padding: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
 </style>
 <body>
     <div class="container-fluid">
@@ -146,16 +155,18 @@
                  
 
 
-
-                <div class="password-container">
-                <div class="row">
-                <label class="label disabled" for="password">Auto Generated Password</label>
-                </div>
-                
-                <div class="row">
-                <label class="password disabled" for="password"><?= $admin['clear_text']?></label>
-                </div>
-                </div>
+                <div class="mb-3">
+                <select class="form-select" name="role" aria-label="Default select example">
+                <option selected>Open this select role</option>
+                <option value="superadmin">Superadmin</option>
+                <option value="admin">Admin</option>
+              </select>
+                  </div>
+                  <?php if($validation->getError('role')) {?>
+                    <div class='d-flex justify-content-center align-items-center validate'>
+                      <?= $error = $validation->getError('role'); ?>
+                    </div>
+                <?php }?>  
                  
                 
 

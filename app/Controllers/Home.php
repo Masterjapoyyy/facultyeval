@@ -290,7 +290,12 @@ class Home extends BaseController
         $db = db_connect();
         $questionModel = new QuestionModel();
         helper(['form']);
-        
+        $coursemodel = new CourseModel();
+        $subjectmodel = new SubjectModel();
+        $facultymodel = new FacultyModel();
+        $data['course']=$coursemodel->find();
+        $data['subject']=$subjectmodel->find();
+        $data['faculty']=$facultymodel->find();
         //$data['questions'] = $questionModel->find();
         $data['academicyear'] =$model->find($id);
 
@@ -446,8 +451,8 @@ class Home extends BaseController
         $courseModel = new CourseModel($db);
         helper('text');
         helper(['form']);
-        $adminModel = new UserModel($db);
-        $data['user']=$adminModel->where("superadmin.id", session("id"))->first();
+        $adminModel = new AdminModel($db);
+        $data['user']=$adminModel->where("admin.id", session("id"))->first();
        
    
 

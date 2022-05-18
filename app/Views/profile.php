@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?= base_url('assets/css/sidebars.css');?>">
-    <title><?= $user['name']?></title>
+    <title><?= $user['last_name']?>,<?= $user['first_name']?></title>
 </head>
 
 <style>
     .profile-image{
-        border-radius: 100%;
+  border-radius: 50%;
+  min-width: 20%; /* depends on size of photo & container */
+  height: auto;
     }
 
 
@@ -23,8 +25,27 @@
         width: 100%;
     }
 
- 
+    .circular--portrait {
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circular--portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
+
+@media screen and (max-width: 800px) {
+  .circular--portrait {
+    width: 40vw;
+    height: 40vw;
+  }
+
+}
 
 
     /*upload*/
@@ -210,14 +231,16 @@ input[type="file"]::-ms-browse {
     <div class="container">
   <div class="row">
     <div class="col">
+   
+    
+
+    <div class="circular--portrait">
     <?php
         $user_img = !empty(session("uploaded_flleinfo")) ? session("uploaded_flleinfo") : 'default.svg';
         ?>
 
-    <img src="<?php echo base_url().'/uploads/profile/'.$user_img; ?>" height="200" width="200" class="profile-image"  alt="">
-    
-
-
+    <img src="<?php echo base_url().'/uploads/profile/'.$user_img; ?>"  alt="">
+</div>
 
 
 <div class="buttons">
@@ -252,7 +275,7 @@ input[type="file"]::-ms-browse {
     <h1>ADMIN</h1>
     <div class="info-container">
             <figure class="figure">
-        <h2 class="figure-img img-fluid rounded"><?= $user['name']?></h2>
+        <h2 class="figure-img img-fluid rounded"><?= $user['first_name']?>,<?= $user['last_name']?></h2>
         <figcaption class="figure-caption">Name</figcaption>
         </figure>
     </div>
@@ -321,9 +344,8 @@ input[type="file"]::-ms-browse {
       </div>
       <div class="modal-body">
       <form action="<?= base_url('Profile/updatepassword/'.$user['id']);?>">
-      <p class="text-center"><b> OLD PASSWORD<br><?= $user['clear_text']?></b></p>
       <div class="input-group mb-3">
-                    <input type="password" name="password" placeholder="password" class="form-control password" value="<?= $user['clear_text']?>" id="InputForPassword">
+                    <input type="password" name="password" placeholder="password" class="form-control password" id="InputForPassword">
                     <div class="input-group-append">
                     <span class="input-group-text password-span">
                     <i class="fa fa-eye-slash" aria-hidden="true" onclick="myFunction()"></i>
@@ -361,8 +383,13 @@ input[type="file"]::-ms-browse {
 
 
                     <div class="mb-3">
-                    <input type="text" name="name" class="form-control" placeholder="name" id="InputForName" value="<?= $user['name']?>">
-                   
+                    <input type="text" name="first_name" class="form-control" placeholder="name" id="InputForName" value="<?= $user['first_name']?>">
+                    
+                  </div>
+
+                  <div class="mb-3">
+                    
+                    <input type="text" name="last_name" class="form-control" placeholder="name" id="InputForName" value="<?= $user['last_name']?>">
                   </div>
             
       </div>

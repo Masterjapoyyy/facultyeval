@@ -121,12 +121,21 @@
   .radio{
     padding-left: 3%;
   }
+
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #f27457 !important;
+    border: none;
+    color:#a23d3d;
+    font-weight: 600;
+}
 </style>
 <body>
     <div class="container-fluid">
+      
     <div class="row">
+      
     <div class="col-4">
-
+      
     <div class="row">
     <?= form_open_multipart('Question/save/'.$academicyear['id']) ?>
       <div id="emailHelp" class="form-text">
@@ -154,8 +163,22 @@
    
     </div>
     </div>
-<button type="submit" class="btn btn-primary registration-button">Save Question</button>
+    <div class="form-group">
+<button type="submit" class="btn btn-primary rounded-pill">Add Question</button>
+    </div>
     </form>
+    
+    <div class="form-group">
+    <button type="button" class="btn btn-primary rounded-pill btn-block" data-toggle="modal" data-target="#exampleModalCenterinfo2">
+  Add Questtionaire Criteria
+    </button>
+    <button type="button" class="btn btn-primary rounded-pill btn-block" data-toggle="modal" data-target="#exampleModalCenterinfo">
+  Add Questtionaire Restrictions
+    </button>
+    
+    </div>
+
+
   </div>
   </div>
 
@@ -379,6 +402,94 @@
 
 
 
+
+
+
+
+
+
+
+
+      <!-- Modal restrictions-->
+<div class="modal fade" id="exampleModalCenterinfo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-0 d-block">
+        <h2 class="modal-title text-center" id="exampleModalLabel">Questtionaire Restrictions</h2>
+      </div>
+      <div class="modal-body">
+   
+      
+                <div class="mb-3">
+            <select class="form-select select" aria-label="Default select example">
+            <option selected>Select Faculty</option>
+            <?php foreach($faculty as  $item) : ?>
+            <option value="1"><?= $item['last_name']?>,<?= $item['first_name']?></option>
+            <?php endforeach; ?>
+          </select>
+            </div>
+
+               
+
+
+            <div class="mb-3">
+            <select class="form-select select" aria-label="Default select example">
+            <option selected>Select Class</option>
+            <?php foreach($course as  $item) : ?>
+            <option value="1"><b><?= $item['course']?>-<?= $item['year_level']?>-<?= $item['section']?></b></option>
+            <?php endforeach; ?>
+          </select>
+            </div>
+
+
+            <div class="mb-3">
+            <select class="form-select select" aria-label="Default select example">
+            <option selected>Select Subject</option>
+            <?php foreach($subject as  $item) : ?>
+            <option value="1"><b><?= $item['subject_code']?>-<?= $item['subject']?></b></option>
+            <?php endforeach; ?>
+          </select>
+            </div>
+            
+      </div>
+      <div class="modal-footer border-0">
+      <input id="SIGNIN" type="submit" class="btn btn-primary rounded-pill btn-block" value="ADD RESTRICTION TO THIS QUESTTIONAIRE">
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+
+
+
+
+    <!-- Modal restrictions-->
+<div class="modal fade" id="exampleModalCenterinfo2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-0 d-block">
+        <h2 class="modal-title text-center" id="exampleModalLabel">Questtionaire Criteria</h2>
+      </div>
+      <div class="modal-body">
+   
+      <div class="mb-3">
+                    <input type="text" name="criteria" class="form-control" placeholder="Criteria" id="InputForName">
+                    
+                  </div>
+
+         
+            
+      </div>
+      <div class="modal-footer border-0">
+      <input id="SIGNIN" type="submit" class="btn btn-primary rounded-pill btn-block" value="ADD THIS CRITERIA TO THIS QUESTTIONAIRE">
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
 
 
 

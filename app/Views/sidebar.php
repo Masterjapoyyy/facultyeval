@@ -26,6 +26,8 @@
      
       <hr>
 
+
+      <?php if (session()->get('role') =='superadmin' ):?>
       <li class="nav__item">
           <a href="#" class="nav__link sidebar-link">
             <ion-icon name="person-outline" class="nav__icon"></ion-icon>
@@ -45,7 +47,6 @@
           </ul>
         </li>
 
-    
 
         <li class="nav__item">
           <a href="#" class="nav__link">
@@ -65,6 +66,10 @@
             </div>
           </ul>
         </li>
+
+
+
+
 
         <li class="nav__item">
           <a href="#" class="nav__link">
@@ -120,8 +125,85 @@
       <hr>
      
       
+      <?php else:?>
+
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            <ion-icon name="school-outline" class="nav__icon"></ion-icon>
+            <span class="nav__name">Faculty<br>Members</span>
+            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+          </a>
+
+          <ul class="nav__drop">
+            <div class="padding">
+              <li>
+              <a href="<?= base_url('Home/addfaculty');?>" class="link-dark rounded links">Add Faculty</a>
+              </li>
+              <li>
+              <a href="<?= base_url('Home/faculty');?>" class="link-dark rounded links">Faculty List</a>
+              </li>
+            </div>
+          </ul>
+        </li>
 
 
+
+
+
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            <ion-icon name="book-outline" class="nav__icon"></ion-icon>
+            <span class="nav__name">Students</span>
+            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+          </a>
+
+          <ul class="nav__drop">
+            <div class="padding">
+            <li><a href="<?= base_url('Home/addstudent');?>" class="link-dark rounded links">Add Student</a></li>
+          <li><a href="<?= base_url('Home/student');?>" class="link-dark rounded links">Student List</a></li>
+            </div>
+          </ul>
+        </li>
+
+        
+
+        <li class="nav__item">
+          <a href="<?= base_url('Home/academicyear');?>" class="nav__link">
+            <ion-icon name="calendar-outline" class="nav__icon"></ion-icon>
+            <span class="nav__name"> Academic Year</span>
+          </a>
+        </li>
+
+        <li class="nav__item">
+          <a href="<?= base_url('Home/subject');?>" class="nav__link">
+            <ion-icon name="create-outline" class="nav__icon"></ion-icon>
+            <span class="nav__name"> Subject</span>
+          </a>
+        </li>
+
+
+        <li class="nav__item">
+          <a href="<?= base_url('Home/course');?>" class="nav__link">
+            <ion-icon name="clipboard-outline" class="nav__icon"></ion-icon>
+            <span class="nav__name">Classes</span>
+          </a>
+        </li>
+
+
+
+        <li class="nav__item">
+          <a href="<?= base_url('Home/questions');?>" class="nav__link nav">
+            <ion-icon name="help-outline" class="nav__icon"></ion-icon>
+            <span class="nav__name">Questtionaire</span>
+          </a>
+        </li>
+
+
+      </ul>
+
+      <hr>
+
+      <?php endif; ?>
     
 
 
@@ -134,7 +216,7 @@
         </div>
 
         <div class="nav__user-info">
-          <div class="nav__user-info-name" onclick="location.href='<?= base_url('Home/profile');?>';"><?= session("name")?></div>
+          <div class="nav__user-info-name" onclick="location.href='<?= base_url('Home/profile');?>';"><?= session("first_name")?></div>
           <div class="nav__user-info-email" onclick="location.href='<?= base_url('Home/profile');?>';"><?= session("email")?></div>
           
         </div>
@@ -176,7 +258,7 @@ menuBtn.addEventListener("click", toggleSideNav);
 
 function toggleSideNav() {
   if (sideNav.style.width == "5.6rem" || sideNav.style.width == "") {
-    sideNav.style.width = "16rem";
+    sideNav.style.width = "18rem";
   } else {
     // close side nav
     sideNav.style.width = "5.6rem";

@@ -181,3 +181,510 @@ CRITICAL - 2022-05-17 05:05:10 --> Unknown column 'admin.id' in 'where clause'
 #9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #10 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #11 {main}
+CRITICAL - 2022-05-17 05:13:24 --> Undefined index: role
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-17 07:30:35 --> Class 'App\Controllers\UserModel' not found
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-17 07:30:58 --> Invalid file: header-tags.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header-tags.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('header-tags', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(69): view('header-tags')
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-17 07:36:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 07:39:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 07:39:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 07:43:05 --> Undefined index: password
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-17 07:43:13 --> Undefined index: password
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-17 07:43:32 --> Undefined index: id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-17 07:43:52 --> Undefined index: password
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-17 07:45:18 --> Unknown column 'admin.id' in 'where clause'
+CRITICAL - 2022-05-17 07:45:18 --> Unknown column 'admin.id' in 'where clause'
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(44): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-17 07:52:35 --> Invalid file: header-tags.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header-tags.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('header-tags', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(72): view('header-tags')
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-17 08:19:37 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 08:19:49 --> Undefined index: clear_text
+#0 C:\xampp\htdocs\facultyEval\app\Views\edit-admin.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('edit-admin', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(164): view('edit-admin', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->editadmin('32')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 08:23:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 08:24:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 20:31:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 20:31:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 20:37:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 20:38:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 20:40:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 20:41:36 --> Array to string conversion
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-17 20:43:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 20:44:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 20:44:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 20:51:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 20:53:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 21:53:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 21:54:12 --> Class 'App\Controllers\UserModel' not found
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-17 21:54:22 --> Invalid file: header-tags.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header-tags.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('header-tags', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(75): view('header-tags')
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-17 21:56:45 --> Invalid file: header-tags.php
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header-tags.php')
+#1 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('header-tags', Array, true)
+#2 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(75): view('header-tags')
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-17 22:09:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 22:10:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 22:11:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 22:11:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 22:19:43 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(243): view('login', Array)
+#4 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->loginAuth()
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-17 22:21:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-17 22:21:33 --> Column 'password' cannot be null
+CRITICAL - 2022-05-17 22:21:33 --> Column 'password' cannot be null
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\facultyEval\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\facultyEval\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\facultyEval\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\facultyEval\app\Controllers\Admin.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Admin->save()
+#10 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-17 22:23:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 22:24:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 22:26:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 22:26:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-17 22:26:59 --> Unknown column 'admin.id' in 'where clause'
+CRITICAL - 2022-05-17 22:26:59 --> Unknown column 'admin.id' in 'where clause'
+#0 C:\xampp\htdocs\facultyEval\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\facultyEval\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\facultyEval\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(450): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#8 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-17 22:27:13 --> Undefined index: name
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 255, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 22:28:00 --> Undefined index: clear_text
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(324): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 324, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 22:28:17 --> Undefined index: clear_text
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(325): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 325, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 22:28:29 --> Undefined index: name
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(363): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 363, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 22:55:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-17 22:57:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\profile.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(464): view('profile', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
