@@ -1,0 +1,770 @@
+CRITICAL - 2022-05-21 05:12:47 --> Too few arguments to function App\Controllers\Student::studentLogout(), 0 passed in C:\xampp\htdocs\facultyEval\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Student->studentLogout()
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 05:20:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:20:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('style.css')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:21:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\facultyEval\app\Views\add-question.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\facultyEval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyEval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyEval\system\Common.php(1089): CodeIgniter\View\View->render('add-question', Array, true)
+#4 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(352): view('add-question', Array)
+#5 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->managequestion('main.js')
+#6 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 05:24:11 --> Undefined variable: id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->StudentEvaluation()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 05:24:29 --> Undefined variable: id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->StudentEvaluation()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 05:24:38 --> Undefined variable: questions
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->StudentEvaluation()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 05:24:44 --> Undefined variable: id
+#0 C:\xampp\htdocs\facultyEval\app\Controllers\Home.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Home->StudentEvaluation()
+#2 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-21 09:02:23 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-21 09:02:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\facultyEval\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\facultyEval\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\facultyEval\app\Validation\StudentRules.php(11): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(292): App\Validation\StudentRules->validateStudent('qwerty', 'email,password', Array, NULL)
+#6 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'qwerty', Array, Array)
+#7 C:\xampp\htdocs\facultyEval\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(239): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->studauth()
+#10 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#11 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-21 09:02:31 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-21 09:02:31 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\facultyEval\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\facultyEval\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\facultyEval\app\Validation\StudentRules.php(11): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(292): App\Validation\StudentRules->validateStudent('qwerty', 'email,password', Array, NULL)
+#6 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'qwerty', Array, Array)
+#7 C:\xampp\htdocs\facultyEval\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(239): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->studauth()
+#10 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#11 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-21 09:02:58 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-21 09:02:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\facultyEval\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\facultyEval\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\facultyEval\app\Validation\StudentRules.php(11): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(292): App\Validation\StudentRules->validateStudent('qwerty', 'email,password', Array, NULL)
+#6 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'qwerty', Array, Array)
+#7 C:\xampp\htdocs\facultyEval\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(239): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->studauth()
+#10 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#11 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-21 09:03:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-21 09:03:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\facultyEval\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\facultyEval\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\facultyEval\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\facultyEval\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\facultyEval\app\Validation\StudentRules.php(11): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(292): App\Validation\StudentRules->validateStudent('qwerty', 'email,password', Array, NULL)
+#6 C:\xampp\htdocs\facultyEval\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'qwerty', Array, Array)
+#7 C:\xampp\htdocs\facultyEval\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\facultyEval\app\Controllers\Login.php(239): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(832): App\Controllers\Login->studauth()
+#10 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#11 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

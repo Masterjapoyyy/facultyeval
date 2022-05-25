@@ -43,7 +43,8 @@ $routes->get('Home/singleemailadmin/(:num)', 'Home::singleemailadmin/$1');
 
 $routes->get('Student/editstudent/(:num)', 'Home::editstudent/$1');
 $routes->get('Student/updatestudent/(:num)', 'Student::updatestudent/$1');
-$routes->get('Student/deletestudent/(:num)', 'Student::deletestudent/$1');
+$routes->get('Student/updatestudent/(:num)', 'Student::updatestudent/$1');
+$routes->get('Student/studentLogout/(:num)', 'Student::studentLogout/$1');
 $routes->get('Home/singleemailstudent/(:num)', 'Home::singleemailstudent/$1');
 $routes->get('/sendemail', 'Home::sendemail');
 
@@ -64,6 +65,8 @@ $routes->get('Question/managequestion/(:num)', 'Home::managequestion/$1');
 $routes->get('Question/addquestion/(:num)', 'Question::addquestion/$1');
 $routes->get('Question/deletequestion/(:num)', 'Question::deletequestion/$1');
 $routes->match(['get', 'post'], '/Question/save', 'Question::save/$1');
+$routes->match(['get', 'post'], '/Question/savecriteria', 'Question::savecriteria/$1');
+$routes->match(['get', 'post'], '/Question/saverestrictions', 'Question::saverestrictions/$1');
 
 $routes->match(['get', 'post'], '/Answers/saveanswers', 'Answers::saveanswers/$1');
 $routes->get('Home/answer/(:num)', 'Home::answer/$1');

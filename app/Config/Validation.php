@@ -25,6 +25,7 @@ class Validation
         FileRules::class,
         CreditCardRules::class,
         \App\Validation\UserRules::class,
+        \App\Validation\StudentRules::class,
     ];
 
     /**

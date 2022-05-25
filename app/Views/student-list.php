@@ -233,7 +233,7 @@ html{
           <td data-label="Last Name"><?= $item['last_name']?></td>
           <td data-label="Email"><?= $item['email']?></td>
           <td data-label="Class"><?= $item['course']?></td>
-          <td data-label="Password"><?= $item['clear_text']?></td>
+          <td data-label="Password"><?= $item['password']?></td>
           <td data-label="Action">
           
           <a class="btn btn-light btn-outline-info"  href="<?php echo base_url('Home/singleemailstudent/'. $item['id']);?>">Send Password</a>

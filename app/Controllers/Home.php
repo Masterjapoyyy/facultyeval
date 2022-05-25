@@ -10,6 +10,8 @@ use App\Models\AcademicModel;
 use App\Models\CustomModel;
 use App\Models\QuestionModel;
 use App\Models\UserModel;
+use App\Models\CriteriaModel;
+use App\Models\RestrictionModel;
 
 
 class Home extends BaseController
@@ -18,7 +20,7 @@ class Home extends BaseController
     {
         helper(['form']);
         echo view('tags');
-        echo view('login');
+        echo view('login-student');
     }
 
     public function register()
@@ -27,6 +29,86 @@ class Home extends BaseController
         echo view('tags');
         echo view('register');
     }
+
+
+    public function StudentEvaluation()
+    {
+        $model = new AcademicModel();
+        $db = db_connect();
+        $questionModel = new QuestionModel();
+        helper(['form']);
+        $coursemodel = new CourseModel();
+        $subjectmodel = new SubjectModel();
+        $facultymodel = new FacultyModel();
+        $criteriamodel = new CriteriaModel();
+        $restrictionmodel = new RestrictionModel();
+        $data['course']=$coursemodel->find();
+        $data['subject']=$subjectmodel->find();
+        $data['faculty']=$facultymodel->find();
+        $data['criteria']=$criteriamodel->find();
+        $data['restriction']=$restrictionmodel->find();
+        //$data['questions'] = $questionModel->find();
+        //$data['academicyear'] =$model->find($id);
+       //$s['criterias'] = $criteriamodel->where('criteria.id')->join('question', 'question.criteria_id = criteria.id')->get()->getResult();
+
+
+  
+        $builder = $db->table('criteria');
+        $builder->select('*');
+        $builder->join('question', 'question.criteria_id = criteria.id');
+        $data['criteria1'] = $builder->get()->getResultArray();
+        //$qq['questions'] = $questionModel->where("question.criteria_id",$id)->join('question', 'question.academic_id = question.criteria_id')->get()->getResult();
+        // $multiClause = array('question.academic_id' => $id, 'criteria.id' => 5);
+        // $data['likes'] = $model->where($multiClause)->delete();
+
+
+        // $questions=$questionModel->where($multiClause)->get()->getResultArray();
+        // $data['questions'] =$questions;
+
+        $questions=$questionModel->where("question.academic_id",10)->get()->getResultArray();
+       
+        $data['questions'] =$questions;
+        $data['questions1']=$questionModel->where("question.academic_id",10)->get()->getResultArray();
+        // $builder = $db->table('question');        // 'mytablename' is the name of your table
+
+        // $builder->select('input_type', 'id');       // names of your columns
+        // $builder->where('id', '*');                // where clause
+        // $query = $builder->get()->getResult();
+        //$dd=$query;
+       
+
+
+        $data['ss'] =$questionModel->where("question.id")->get()->getResultArray();
+        //$qq['questions'] = $questionModel->where("question.criteria_id",$id)->join('question', 'question.academic_id = question.criteria_id')->get()->getResult();
+        // $multiClause = array('question.academic_id' => $id, 'criteria.id' => 5);
+        // $data['likes'] = $model->where($multiClause)->delete();
+
+
+        // $questions=$questionModel->where($multiClause)->get()->getResultArray();
+        // $data['questions'] =$questions;
+
+        //$questions=$questionModel->where("question.academic_id",$id)->get()->getResultArray();
+       
+        // /$data['questions'] =$questions;
+        // /$data['questions1']=$questionModel->where("question.academic_id",$id)->get()->getResultArray();
+        // $builder = $db->table('question');        // 'mytablename' is the name of your table
+
+        // $builder->select('input_type', 'id');       // names of your columns
+        // $builder->where('id', '*');                // where clause
+        // $query = $builder->get()->getResult();
+        //$dd=$query;
+       
+
+
+        $data['ss'] =$questionModel->where("question.id")->get()->getResultArray();
+  
+
+        helper(['form']);
+        echo view('tags');
+        echo view('navbar');
+        echo view('student-evaluation', $data);
+    }
+
 
     public function addfaculty()
     {
@@ -293,16 +375,32 @@ class Home extends BaseController
         $coursemodel = new CourseModel();
         $subjectmodel = new SubjectModel();
         $facultymodel = new FacultyModel();
+        $criteriamodel = new CriteriaModel();
         $data['course']=$coursemodel->find();
         $data['subject']=$subjectmodel->find();
         $data['faculty']=$facultymodel->find();
+        $data['criteria']=$criteriamodel->find();
         //$data['questions'] = $questionModel->find();
         $data['academicyear'] =$model->find($id);
+       //$s['criterias'] = $criteriamodel->where('criteria.id')->join('question', 'question.criteria_id = criteria.id')->get()->getResult();
+
+
+       $builder = $db->table('criteria');
+        $builder->select('*');
+        $builder->join('question', 'question.criteria_id = criteria.id');
+        $data['criteria1'] = $builder->get()->getResultArray();
+        //$qq['questions'] = $questionModel->where("question.criteria_id",$id)->join('question', 'question.academic_id = question.criteria_id')->get()->getResult();
+        // $multiClause = array('question.academic_id' => $id, 'criteria.id' => 5);
+        // $data['likes'] = $model->where($multiClause)->delete();
+
+
+        // $questions=$questionModel->where($multiClause)->get()->getResultArray();
+        // $data['questions'] =$questions;
 
         $questions=$questionModel->where("question.academic_id",$id)->get()->getResultArray();
        
         $data['questions'] =$questions;
-
+        $data['questions1']=$questionModel->where("question.academic_id",$id)->get()->getResultArray();
         // $builder = $db->table('question');        // 'mytablename' is the name of your table
 
         // $builder->select('input_type', 'id');       // names of your columns
@@ -315,7 +413,7 @@ class Home extends BaseController
         $data['ss'] =$questionModel->where("question.id")->get()->getResultArray();
   
         // foreach($questions as  $item){
-        //     print_r($item['id']);
+            // print_r($s);
         //     echo '<br>';
         // }
         //$data['inputs'] = $questionModel->select('input_type')->get()->getResultArray();	

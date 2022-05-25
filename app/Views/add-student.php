@@ -141,7 +141,7 @@
                 <select class="form-select-lg mb-3 select" name="course" aria-label=".form-select-lg example">
                   <option selected>Select Class</option>
                   <?php foreach($course as  $item) : ?>
-                  <option value="<?= $item['course']?>-<?= $item['year_level']?>-<?= $item['section']?>"><?= $item['course']?>-<?= $item['year_level']?>-<?= $item['section']?></option>
+                  <option value="<?= $item['id']?>"><?= $item['course']?>-<?= $item['year_level']?>-<?= $item['section']?></option>
                   <?php endforeach; ?>
                 </select>
                 </div>

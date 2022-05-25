@@ -24,9 +24,9 @@
             
                   
 
-                    <form action="/login/auth" method="post">
+                    <form action="/login/studauth" method="post">
                     <div id="emailHelp" class="form-text">
-                        <h1 class="display-3 registration-header">ADMIN LOGIN</h1>
+                        <h1 class="display-3 registration-header">LOGIN</h1>
                     </div>
 
                     <div class="login-container">
@@ -42,6 +42,7 @@
                     </div>
                 <?php }?>
                     </figure>
+
 
 
                     
@@ -63,8 +64,9 @@
             </div>
         <?php }?>
         </figure>
-
-           
+      
+                      
+               
 
         <!-- <div class="mb-3 need-account">
                       DONT HAVE AN ACCOUNT?   <a href="Home/register" class="link-primary signin-link"><b>REGISTER</b></a>

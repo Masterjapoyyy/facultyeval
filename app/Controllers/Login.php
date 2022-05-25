@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 use App\Models\AdminModel;
+use App\Models\StudentModel;
 
 class Login extends BaseController
 {
@@ -200,13 +201,78 @@ class Login extends BaseController
             }else{
                 
                 echo view('tags');
-                echo '1';
                 echo view('login', $data);
             }
 		}
                 echo view('tags');
-                echo '2';
 		echo view('login', $data);
+
+	}
+
+
+    
+
+
+    public function studauth(){
+        $session = session();
+        $model = new StudentModel();
+        $email = $this->request->getVar('email');
+        $password = $this->request->getVar('password');
+        helper(['form']);
+		$data = [];
+		helper(['form']);
+
+		
+		if($this->request->getMethod()=='post'){
+            $rules = [
+        
+                'email'=>'required|min_length[1]|max_length[255]|valid_email',
+                'password'=>'required|min_length[1]|max_length[255]|validateStudent[email,password]',
+            ];
+        
+            $errors = [
+                'password' => [
+                    'validateStudent' => 'Email/Password Does not Match'
+                ]
+            ];
+            //$this->validate($rules,$errors)
+            if($this->validate($rules,$errors)){
+                $data = $model->where('email', $email)->first();
+                $data['user']=$model->where("student.id", session("id"))->first();
+                if($data){
+                    $pass = $data['password'];
+                    //$verify_pass = password_verify($password, $pass);
+                    if($password == $pass){
+                        $ses_data = [                                   
+                            'id'       => $data['id'],
+                            'schoolid'     => $data['schoolid'],
+                            'first_name'     => $data['first_name'],
+                            'last_name'    => $data['last_name'],
+                            'email'     => $data['email'],
+                            'course'     => $data['course'],
+                            'uploaded_flleinfo'    => $data['uploaded_flleinfo'],
+                            'logged_in'     => TRUE
+                        ];
+                      
+                        $session->set($ses_data);
+                        return redirect()->to('/Home/StudentEvaluation');
+                    }else{
+                        $session->setFlashdata('msg', 'Wrong Password');
+                        echo 'asdasdsa';
+                        echo view('login-student', $data);
+                    }
+                }else{
+                        $session->setFlashdata('msg', 'Email not Found');
+                        return redirect()->to('/login/studauth');
+                }
+            }else{
+                
+                echo view('tags');
+                echo view('login-student', $data);
+            }
+		}
+                echo view('tags');
+		echo view('login-student', $data);
 
 	}
 

@@ -23,7 +23,8 @@
       position:absolute;
       display:flex;
       padding-top: 5%;
-      padding-left: 15%;
+      padding-left: 10%;
+      padding-right: 5%;
       width: 100%;
   }
 
@@ -143,11 +144,18 @@
       </div>
       
       <input type="hidden" id="custId" class="custId" name="academic_id" value="<?= $academicyear['id'] ?>">
-
+      
       <div class="mb-3">
       <textarea class="form-control text-area" name="question" id="exampleFormControlTextarea1" rows="10"></textarea>
     </div>
-
+    <div class="mb-3">
+            <select class="form-select select" name="criteria_id" aria-label="Default select example">
+            <option selected>Select Criteria for this Question</option>
+            <?php foreach($criteria as  $item) : ?>
+            <option value="<?= $item['id']?>"><b><?= $item['criteria']?></b></option>
+            <?php endforeach; ?>
+          </select>
+            </div>
     <div class="mb-3 inputs">
     
     
@@ -334,11 +342,21 @@
 
 
 
-
   <div class="row">
+    
+  
+  <?php foreach($criteria as  $criteriaitem) : ?>
                               <table class="table table-borderless">
+                              <h3 class="text-center"><b><?= $criteriaitem['criteria']?></b></h3>
                     <thead>
-                      <tr>
+                    
+                 
+                    
+                      <?php if ($criteriaitem['id'] != $criteriaitem['id']): ?>
+                     
+                      <?php else: ?>
+
+                        <tr>
                       <th class="disabled header" scope="col">QUESTIONS</th>
                       <th class="disabled header" scope="col">1</th>
                       <th class="disabled header" scope="col">2</th>
@@ -346,13 +364,16 @@
                       <th class="disabled header" scope="col">4</th>
                       <th class="disabled header" scope="col">5</th>
                       </tr>
+                      <?php endif; ?>
                     </thead>
+                  
                     <tbody>
-                    
+                   
                     <?php foreach($questions as  $item) : ?>
                       <tr>
                         <td>
-                        <?= $item['question']?>
+                        <?php if ($criteriaitem['id'] == $item['criteria_id']):?>
+                      <?= $item['question']?>
                         </td>
                       <?php for($c=0;$c<5;$c++): ?>
 								<td class="body">
@@ -364,13 +385,13 @@
                             
 								</td>
 								<?php endfor; ?>
-                
+                <?php endif; ?>
           
                       </tr>
                       <?php endforeach; ?>
                     </tbody>
                   </table>
-              
+                  <?php endforeach; ?>
             </div>
             
 
@@ -419,34 +440,33 @@
       </div>
       <div class="modal-body">
    
-      
+      <?= form_open_multipart('Question/saverestrictions/'.$academicyear['id']) ?>
                 <div class="mb-3">
-            <select class="form-select select" aria-label="Default select example">
+            <select class="form-select select" name="faculty_id" aria-label="Default select example">
             <option selected>Select Faculty</option>
             <?php foreach($faculty as  $item) : ?>
-            <option value="1"><?= $item['last_name']?>,<?= $item['first_name']?></option>
+            <option value="<?= $item['id']?>"><?= $item['last_name']?>,<?= $item['first_name']?></option>
             <?php endforeach; ?>
           </select>
             </div>
 
                
 
-
             <div class="mb-3">
-            <select class="form-select select" aria-label="Default select example">
+            <select class="form-select select" name="class_id" aria-label="Default select example">
             <option selected>Select Class</option>
             <?php foreach($course as  $item) : ?>
-            <option value="1"><b><?= $item['course']?>-<?= $item['year_level']?>-<?= $item['section']?></b></option>
+            <option value="<?= $item['id']?>"><b><?= $item['course']?>-<?= $item['year_level']?>-<?= $item['section']?></b></option>
             <?php endforeach; ?>
           </select>
             </div>
 
 
             <div class="mb-3">
-            <select class="form-select select" aria-label="Default select example">
+            <select class="form-select select" name="subject_id" aria-label="Default select example">
             <option selected>Select Subject</option>
             <?php foreach($subject as  $item) : ?>
-            <option value="1"><b><?= $item['subject_code']?>-<?= $item['subject']?></b></option>
+            <option value="<?= $item['id']?>"><b><?= $item['subject_code']?>-<?= $item['subject']?></b></option>
             <?php endforeach; ?>
           </select>
             </div>
@@ -462,10 +482,10 @@
     </div>
 
 
+   
 
 
-
-    <!-- Modal restrictions-->
+    <!-- Modal criteria-->
 <div class="modal fade" id="exampleModalCenterinfo2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -473,18 +493,26 @@
         <h2 class="modal-title text-center" id="exampleModalLabel">Questtionaire Criteria</h2>
       </div>
       <div class="modal-body">
-   
+      
+
+      <?= form_open_multipart('Question/savecriteria/'.$academicyear['id']) ?>
+      <div id="emailHelp" class="form-text">
+          <h1 class="registration-header">Questtionaire Criteria</h1>
+      </div>
+      
+      <input type="hidden" id="custId" class="custId" name="academic_id" value="<?= $academicyear['id'] ?>">
+
       <div class="mb-3">
                     <input type="text" name="criteria" class="form-control" placeholder="Criteria" id="InputForName">
                     
                   </div>
+    <div class="form-group">
+<button type="submit" class="btn btn-primary rounded-pill">ADD THIS CRITERIA TO THIS QUESTTIONAIRE</button>
+    </div>
+    </form>
 
-         
-            
-      </div>
-      <div class="modal-footer border-0">
-      <input id="SIGNIN" type="submit" class="btn btn-primary rounded-pill btn-block" value="ADD THIS CRITERIA TO THIS QUESTTIONAIRE">
-</form>
+
+
       </div>
     </div>
   </div>
@@ -493,7 +521,7 @@
 
 
 
-
+   
 
 
 

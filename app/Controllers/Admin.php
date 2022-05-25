@@ -5,6 +5,16 @@ use App\Models\AdminModel;
 
 class Admin extends BaseController
 {
+
+/**
+ * It loads the form helper, then loads the tags view, then loads the login view.
+ */
+    public function index()
+    {
+        helper(['form']);
+        echo view('tags');
+        echo view('login');
+    }
    /**
     * The function is supposed to take the user's input, validate it, and then save it to the database.
     * 

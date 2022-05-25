@@ -54,8 +54,7 @@ class Student extends BaseController
                 'last_name'     => $this->request->getVar('last_name'),
                 'email'    => $this->request->getVar('email'),
                 'course'    => $this->request->getVar('course'),
-                'password' => password_hash($this->request->getVar($newPassword), PASSWORD_DEFAULT),
-                'clear_text'    => $newPassword,
+                'password' => $newPassword,
             ];
         
             $model->save($data);
@@ -143,7 +142,7 @@ class Student extends BaseController
    * It takes the student's ID, generates a random password, and then updates the student's password in
    * the database.
    */
-        public function studentLogout()
+        public function studentLogout($id)
     {
         $model = new StudentModel();
         $student = $model->find($id);
@@ -163,7 +162,7 @@ class Student extends BaseController
           ];
           
           $model->update($id, $data);
-          return redirect()->to('/Students/StudentList');
+          return redirect()->to('/Home');
     }
 
 
