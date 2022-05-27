@@ -25,6 +25,7 @@
         display:flex;
         padding-top: 1%;
         width: 100%;
+        background-color: #081b8599;
     }
 
 

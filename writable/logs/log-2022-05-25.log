@@ -1,0 +1,82 @@
+CRITICAL - 2022-05-25 02:40:38 --> Undefined variable: course
+#0 C:\xampp\htdocs\facultyeval\app\Views\add-student.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\facultyeval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyeval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyeval\system\Common.php(1089): CodeIgniter\View\View->render('add-student', Array, true)
+#4 C:\xampp\htdocs\facultyeval\app\Controllers\Student.php(67): view('add-student', Array)
+#5 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(832): App\Controllers\Student->save()
+#6 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#7 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyeval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 02:42:34 --> Undefined index: course
+#0 C:\xampp\htdocs\facultyeval\app\Views\edit-course.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\facultyeval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyeval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyeval\system\Common.php(1089): CodeIgniter\View\View->render('edit-course', Array, true)
+#4 C:\xampp\htdocs\facultyeval\app\Controllers\Course.php(95): view('edit-course', Array)
+#5 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(832): App\Controllers\Course->updatecourse('22')
+#6 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyeval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 02:42:34 --> Undefined index: course
+#0 C:\xampp\htdocs\facultyeval\app\Views\edit-course.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\facultyeval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyeval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyeval\system\Common.php(1089): CodeIgniter\View\View->render('edit-course', Array, true)
+#4 C:\xampp\htdocs\facultyeval\app\Controllers\Course.php(95): view('edit-course', Array)
+#5 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(832): App\Controllers\Course->updatecourse('style.css')
+#6 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyeval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 02:42:34 --> Undefined index: course
+#0 C:\xampp\htdocs\facultyeval\app\Views\edit-course.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\facultyeval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyeval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyeval\system\Common.php(1089): CodeIgniter\View\View->render('edit-course', Array, true)
+#4 C:\xampp\htdocs\facultyeval\app\Controllers\Course.php(95): view('edit-course', Array)
+#5 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(832): App\Controllers\Course->updatecourse('js', 'ext-language_to...')
+#6 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyeval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 02:42:34 --> Undefined index: course
+#0 C:\xampp\htdocs\facultyeval\app\Views\edit-course.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\facultyeval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyeval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyeval\system\Common.php(1089): CodeIgniter\View\View->render('edit-course', Array, true)
+#4 C:\xampp\htdocs\facultyeval\app\Controllers\Course.php(95): view('edit-course', Array)
+#5 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(832): App\Controllers\Course->updatecourse('ace', 'src-noconflict', 'ace.js')
+#6 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyeval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 02:42:34 --> Undefined index: course
+#0 C:\xampp\htdocs\facultyeval\app\Views\edit-course.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\facultyeval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyeval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyeval\system\Common.php(1089): CodeIgniter\View\View->render('edit-course', Array, true)
+#4 C:\xampp\htdocs\facultyeval\app\Controllers\Course.php(95): view('edit-course', Array)
+#5 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(832): App\Controllers\Course->updatecourse('main.js')
+#6 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Course))
+#7 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyeval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-25 02:43:47 --> Column 'answers' cannot be null
+CRITICAL - 2022-05-25 02:43:47 --> Column 'answers' cannot be null
+#0 C:\xampp\htdocs\facultyeval\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `an...', 0)
+#1 C:\xampp\htdocs\facultyeval\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `an...')
+#2 C:\xampp\htdocs\facultyeval\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `an...')
+#3 C:\xampp\htdocs\facultyeval\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `an...', Array, false)
+#4 C:\xampp\htdocs\facultyeval\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\facultyeval\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\facultyeval\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\facultyeval\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\facultyeval\app\Controllers\Answers.php(89): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(832): App\Controllers\Answers->saveanswers('10')
+#10 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Answers))
+#11 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\facultyeval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

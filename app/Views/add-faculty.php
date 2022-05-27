@@ -21,6 +21,7 @@
     display:flex;
     margin-left: 20%;
     padding-top: 7%;
+    background-color: #081b8599;
     }
 
    

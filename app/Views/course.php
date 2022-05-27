@@ -25,6 +25,7 @@
         padding-top: 1%;
         padding-left: 3%;
         width: 100%;
+        background-color: #081b8599;
     }
 
     .disabled{
@@ -97,6 +98,7 @@ tbody:before {
 
     .login-container{
         padding-top: 5%;
+        
     }
 
 
@@ -121,6 +123,7 @@ html{
   .container-fluid{
         margin-bottom: 3%;
         padding-left: 30%;
+        
     }
 }
 

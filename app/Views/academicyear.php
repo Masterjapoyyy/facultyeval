@@ -12,6 +12,7 @@
     *{
     font-family: 'Montserrat', sans-serif;
     color: #041159;
+    
     }
 
     html{
@@ -22,7 +23,9 @@
         position:absolute;
         display:flex;
         padding-top: 1%;
+        padding-left: 5%;
         width: 100%;
+        background-color: #081b8599;
     }
 
     .disabled{

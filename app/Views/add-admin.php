@@ -10,10 +10,12 @@
 *{
     font-family: 'Montserrat', sans-serif;
     color: #041159;
+    
     }
 
     html{
         overflow: hidden;
+        
     }
 
     .container-fluid{
@@ -21,11 +23,13 @@
     display:flex;
     margin-left: 20%;
     padding-top: 7%;
+
     }
 
    
     .registration-header{
         font-weight: 800
+        
     }
 
     .form-control{
@@ -68,6 +72,7 @@
 
     .login-container{
         padding-top: 5%;
+        
     }
 
 
@@ -137,7 +142,7 @@
 
                 <div class="mb-3">
                 <select class="form-select" name="role" aria-label="Default select example">
-                <option selected>Open this select role</option>
+                <option selected>Select role</option>
                 <option value="superadmin">Superadmin</option>
                 <option value="admin">Admin</option>
               </select>

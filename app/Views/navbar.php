@@ -32,6 +32,7 @@ ul{
   li a:hover{
     color: #fff;
     background: #9c9999;
+    
   }
   .navbar{
     padding: 0;

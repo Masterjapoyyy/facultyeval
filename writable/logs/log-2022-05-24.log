@@ -605,3 +605,39 @@ CRITICAL - 2022-05-24 23:16:29 --> Undefined variable: academicyear
 #7 C:\xampp\htdocs\facultyEval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\facultyEval\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2022-05-24 23:55:28 --> Undefined index: clear_text
+#0 C:\xampp\htdocs\facultyeval\app\Controllers\Home.php(480): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 480, Array)
+#1 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(832): App\Controllers\Home->singleemailstudent('38')
+#2 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyeval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 23:55:51 --> Undefined index: clear_text
+#0 C:\xampp\htdocs\facultyeval\app\Views\edit-student.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 174, Array)
+#1 C:\xampp\htdocs\facultyeval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyeval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyeval\system\Common.php(1089): CodeIgniter\View\View->render('edit-student', Array, true)
+#4 C:\xampp\htdocs\facultyeval\app\Controllers\Home.php(258): view('edit-student', Array)
+#5 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(832): App\Controllers\Home->editstudent('38')
+#6 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyeval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 23:56:17 --> Undefined index: clear_text
+#0 C:\xampp\htdocs\facultyeval\app\Views\student-email.php(220): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 220, Array)
+#1 C:\xampp\htdocs\facultyeval\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facultyeval\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\facultyeval\system\Common.php(1089): CodeIgniter\View\View->render('student-email', Array, true)
+#4 C:\xampp\htdocs\facultyeval\app\Controllers\Home.php(199): view('student-email', Array)
+#5 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(832): App\Controllers\Home->sendemail()
+#6 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\facultyeval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 23:57:27 --> Undefined index: clear_text
+#0 C:\xampp\htdocs\facultyeval\app\Controllers\Home.php(480): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 480, Array)
+#1 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(832): App\Controllers\Home->singleemailstudent('38')
+#2 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\facultyeval\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\facultyeval\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
